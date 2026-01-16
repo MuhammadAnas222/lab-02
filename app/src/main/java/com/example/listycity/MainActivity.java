@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     int selected_pos = -1;
 
     public void add(View add_button) {
-        // Create input field
+        // Creating an input field for entry
         final android.widget.EditText input = new android.widget.EditText(this);
         input.setHint("Enter city name");
 
