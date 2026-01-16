@@ -1,4 +1,5 @@
 # CMPUT 301 : Lab 2 Participation Exercise
+// SWITCH TO MASTER BRANCH FOR THE LAB PROJECT
 
 ## Student Details
 
