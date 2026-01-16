@@ -49,11 +49,8 @@ public class MainActivity extends AppCompatActivity {
         final android.widget.EditText input = new android.widget.EditText(this);
         input.setHint("Enter city name");
 
-        // Build dialog
-        new androidx.appcompat.app.AlertDialog.Builder(this)
-                .setTitle("Add City")
-                .setView(input)
-                .setPositiveButton("CONFIRM", (dialog, which) -> {
+        // Building the text dialog
+        new androidx.appcompat.app.AlertDialog.Builder(this).setTitle("Add City").setView(input).setPositiveButton("CONFIRM", (dialog, which) -> {
 
                     String cityName = input.getText().toString().trim();
 
